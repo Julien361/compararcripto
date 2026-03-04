@@ -1,0 +1,51 @@
+{
+  "exchanges": [
+    {
+      "name": "Binance",
+      "affiliate_link": "https://accounts.binance.com/register?ref=TODO",
+      "commission": "50% lifetime",
+      "signup_bonus": "10% trading fees refund",
+      "status": "pending_signup",
+      "notes": "Affiliate link needs registration at https://www.binance.com/en/activity/referral"
+    },
+    {
+      "name": "KuCoin",
+      "affiliate_link": "https://www.kucoin.com/ucenter/signup?rcode=TODO",
+      "commission": "60% lifetime",
+      "signup_bonus": "20 USDT welcome bonus",
+      "status": "pending_signup",
+      "notes": "Register at KuCoin Referral Program"
+    },
+    {
+      "name": "MEXC",
+      "affiliate_link": "https://www.mexc.com/register?inviteCode=TODO",
+      "commission": "70% lifetime",
+      "signup_bonus": "50 USDT welcome bonus",
+      "status": "pending_signup",
+      "notes": "Highest commission — prioritize!"
+    },
+    {
+      "name": "Coinbase",
+      "affiliate_link": "https://www.coinbase.com/join/TODO",
+      "commission": "30% recurring",
+      "signup_bonus": "$10 BTC for new users",
+      "status": "pending_signup",
+      "notes": "Recurring commissions (better long-term)"
+    }
+  ],
+  "setup_checklist": [
+    "[ ] Register Binance Affiliate Program → get referral code",
+    "[ ] Register KuCoin Affiliate Program → get referral code",
+    "[ ] Register MEXC Affiliate Program → get referral code",
+    "[ ] Register Coinbase Affiliate Program → get affiliate ID",
+    "[ ] Update index.html with affiliate links",
+    "[ ] Setup Google Analytics 4 tracking",
+    "[ ] Deploy to Cloudflare Pages",
+    "[ ] Setup IndexNow for instant indexing"
+  ],
+  "tracking_setup": {
+    "ga4_event_purchase": "transaction",
+    "ga4_event_signup": "sign_up",
+    "ga4_event_affiliate_click": "view_item"
+  }
+}

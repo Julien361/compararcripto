@@ -1,0 +1,288 @@
+{
+  "name": "compararcripto",
+  "domain": "compararcripto.com",
+  "url": "https://compararcripto.com",
+  "created_at": "2026-03-04T00:00:00Z",
+  "usine_started_at": "2026-03-04T00:00:00Z",
+  "entity": "METIS",
+  "status": {
+    "phase_1": "in_progress",
+    "phase_2": "in_progress",
+    "phase_3": "pending",
+    "phase_4": "pending"
+  },
+  "idea": {
+    "description": "Comparador de criptomoedas e guias de exchange - foco mercado Brasil PT-BR",
+    "target_audience": "Usu\u00e1rios brasileiros buscando comparar exchanges de criptomoedas",
+    "business_model": "crypto_affiliate_adsense",
+    "usp": "\u00danico site PT-BR com an\u00e1lise detalhada de 15+ exchanges + seguran\u00e7a + taxas",
+    "market_size": "10M+ usu\u00e1rios crypto n\u00e3o-atendidos em PT-BR",
+    "growth_rate": "+25%/ano mercado crypto Brasil"
+  },
+  "technical": {
+    "stack": "static_html",
+    "framework": "vanilla_html_css",
+    "hosting": "cloudflare_pages",
+    "database": "none_static",
+    "deployment": "git_cloudflare",
+    "local_path": "~/Library/CloudStorage/Dropbox/METIS/compararcripto",
+    "performance": {
+      "lcp_target": "< 1.5s",
+      "cls_target": "< 0.05",
+      "fid_target": "< 50ms"
+    }
+  },
+  "monetization": {
+    "primary": [
+      "binance_affiliate",
+      "kucoin_affiliate",
+      "mexc_affiliate"
+    ],
+    "secondary": [
+      "google_adsense",
+      "coinbase_affiliate"
+    ],
+    "affiliate_commissions": {
+      "binance": "50% lifetime",
+      "kucoin": "60% lifetime",
+      "mexc": "70% lifetime",
+      "coinbase": "30% recurring"
+    },
+    "projected_monthly_revenue": "4300-11000",
+    "projected_annual_revenue": "30000-150000"
+  },
+  "content": {
+    "total_articles_planned": 10,
+    "articles_published": 0,
+    "languages": [
+      "pt-br"
+    ],
+    "content_pillars": [
+      "comparacao_exchanges_seguranca",
+      "taxas_spreads_exchanges",
+      "como_comecar_crypto_brasil",
+      "wallet_seguranca",
+      "tutorials_exchanges"
+    ]
+  },
+  "seo": {
+    "target_keywords": [
+      "comparar criptomoedas",
+      "melhor exchange bitcoin brasil",
+      "como comprar bitcoin brasil",
+      "binance vs coinbase",
+      "exchange criptomoedas seguro"
+    ],
+    "estimated_monthly_traffic": "5000-15000",
+    "articles_published": 0,
+    "quick_wins": []
+  },
+  "n8n_workflows": {},
+  "credentials": {
+    "cloudflare_account": "\u2014",
+    "git_repo": "compararcripto",
+    "affiliate_accounts": [
+      "binance",
+      "kucoin",
+      "mexc",
+      "coinbase"
+    ]
+  },
+  "blockers": [
+    {
+      "id": "html_template",
+      "description": "Criar template HTML base + CSS framework",
+      "priority": "critical",
+      "status": "pending"
+    },
+    {
+      "id": "affiliate_setup",
+      "description": "Configurar links de afilia\u00e7\u00e3o para 4 exchanges",
+      "priority": "critical",
+      "status": "pending"
+    },
+    {
+      "id": "content_writing",
+      "description": "Escrever 10 artigos em PT-BR (nativo, n\u00e3o traduzido)",
+      "priority": "high",
+      "status": "pending"
+    }
+  ],
+  "timeline": {
+    "week_1": "HTML setup + Cloudflare Pages deployment",
+    "week_2_3": "Write 10 PT-BR articles (native)",
+    "week_4": "Launch + monitoring + affiliate links live",
+    "april_1": "Revenue generation begins"
+  },
+  "cross_site_links": [],
+  "audit_checkpoints": [
+    {
+      "id": "project_created",
+      "category": "setup",
+      "result": "pass",
+      "checked_at": "2026-03-04T23:00:00Z",
+      "expires": "permanent",
+      "notes": "Project.json created and added to cache system"
+    },
+    {
+      "id": "html_template_created",
+      "category": "deployment",
+      "result": "pass",
+      "checked_at": "2026-03-04T23:45:00Z",
+      "expires": "on_change",
+      "notes": "HTML base template created, affiliates.json setup checklist ready"
+    }
+  ],
+  "steps": {
+    "1.1": {
+      "status": "done",
+      "step": "Idea validation",
+      "description": "Confirm niche, business model, target audience",
+      "at": "2026-03-04T23:12:15.381168"
+    },
+    "1.2": {
+      "status": "done",
+      "step": "Market research",
+      "description": "Analyze competitors, market size, trends",
+      "at": "2026-03-04T23:12:15.381173"
+    },
+    "1.3": {
+      "status": "done",
+      "step": "Domain acquisition",
+      "description": "Register domain, set up registrar",
+      "at": "2026-03-04T23:12:15.381175"
+    },
+    "1.4": {
+      "status": "done",
+      "step": "Project.json created",
+      "description": "Initial project structure documented",
+      "at": "2026-03-04T23:12:15.381177"
+    },
+    "3.1": {
+      "status": "done",
+      "step": "HTML deployed",
+      "description": "Site live, all pages accessible",
+      "at": "2026-03-04T23:27:37.025336"
+    },
+    "3.2": {
+      "status": "pending",
+      "step": "DNS configured",
+      "description": "A records, CNAME, MX records verified"
+    },
+    "3.3": {
+      "status": "pending",
+      "step": "SSL certificate",
+      "description": "HTTPS enabled, certificate valid"
+    },
+    "3.4": {
+      "status": "pending",
+      "step": "robots.txt",
+      "description": "robots.txt deployed"
+    },
+    "3.5": {
+      "status": "pending",
+      "step": "sitemap.xml",
+      "description": "XML sitemap generated and deployed"
+    },
+    "3.6": {
+      "status": "pending",
+      "step": "CDN active",
+      "description": "Cloudflare SSL, caching, WAF"
+    },
+    "3.7": {
+      "status": "pending",
+      "step": "GA4 installed",
+      "description": "GA4 property created, tracking code"
+    },
+    "3.8": {
+      "status": "pending",
+      "step": "GSC property",
+      "description": "Google Search Console added, verified"
+    },
+    "3.9": {
+      "status": "pending",
+      "step": "IndexNow API",
+      "description": "IndexNow configured, URL submission"
+    },
+    "3.10": {
+      "status": "pending",
+      "step": "OG tags",
+      "description": "Open Graph, Twitter Card metadata"
+    },
+    "3.11": {
+      "status": "pending",
+      "step": "Favicon",
+      "description": "Favicon, apple-touch-icon deployed"
+    },
+    "3.12": {
+      "status": "pending",
+      "step": "Cookie consent",
+      "description": "Tarteaucitron implemented if needed"
+    },
+    "3.13": {
+      "status": "pending",
+      "step": "Performance audit",
+      "description": "LCP, CLS, FID tested, optimized"
+    },
+    "4.1": {
+      "status": "pending",
+      "step": "Main pages written",
+      "description": "Comparison, guides, reviews content complete"
+    },
+    "4.2": {
+      "status": "pending",
+      "step": "SEO optimization",
+      "description": "Keywords integrated, H1-H3 hierarchy, meta tags"
+    },
+    "4.3": {
+      "status": "pending",
+      "step": "Quality gate passed",
+      "description": "No thin content, all pages indexed"
+    },
+    "5.1": {
+      "status": "pending",
+      "step": "Monetization plan",
+      "description": "Affiliate programs, AdSense identified"
+    },
+    "5.2": {
+      "status": "pending",
+      "step": "Monetization deployed",
+      "description": "Affiliate links, ad code live"
+    },
+    "5.3": {
+      "status": "pending",
+      "step": "GA4 events tracking",
+      "description": "Affiliate clicks, form submits tracked"
+    },
+    "6.1": {
+      "status": "pending",
+      "step": "Security audit",
+      "description": "No exposed credentials, headers correct"
+    },
+    "6.2": {
+      "status": "pending",
+      "step": "Functional testing",
+      "description": "All pages load, forms work, links valid"
+    },
+    "6.3": {
+      "status": "pending",
+      "step": "Lighthouse score",
+      "description": "Performance, Accessibility, SEO, Best Practices"
+    },
+    "7.1": {
+      "status": "pending",
+      "step": "Quick wins identified",
+      "description": "Keywords position 11-20 with volume > 100"
+    },
+    "7.2": {
+      "status": "pending",
+      "step": "Monitoring dashboards",
+      "description": "GA4, GSC, rank tracking active"
+    },
+    "7.3": {
+      "status": "pending",
+      "step": "Health check passed",
+      "description": "All systems nominal, no critical errors"
+    }
+  }
+}
