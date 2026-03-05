@@ -86,7 +86,7 @@
       "exchange criptomoedas seguro"
     ],
     "estimated_monthly_traffic": "5000-15000",
-    "articles_published": 0,
+    "articles_published": 10,
     "quick_wins": []
   },
   "n8n_workflows": {},
@@ -246,16 +246,16 @@
   "progress_summary": {
     "phase_1_completion": "100%",
     "phase_2_completion": "100%",
-    "phase_3_completion": "20%",
+    "phase_3_completion": "35%",
     "phase_4_completion": "100%",
-    "total_completion": "80%",
-    "next_critical_step": "Connecter Cloudflare Pages + GA4 + GSC"
+    "total_completion": "84%",
+    "next_critical_step": "2.5: Connecter Cloudflare Pages (CRITICAL) → GA4 verification → GSC setup"
   },
   "deployment_status": {
-    "github": "\u2705 Live \u2014 repo: https://github.com/Julien361/compararcripto",
-    "cloudflare_pages": "\u23f3 Pending \u2014 GitHub connected, awaiting domain routing",
-    "ga4": "\u2705 Live \u2014 G-LQVYBFTPH8",
-    "gsc": "\u23f3 Pending \u2014 DNS verification needed",
+    "github": "\u2705 Live \u2014 commit c8a51b2 pushed (10 articles + sitemap)",
+    "cloudflare_pages": "\u23f3 Pending \u2014 CRITICAL: GitHub connected, awaiting domain routing (step 2.5)",
+    "ga4": "\u2705 Live code \u2014 G-LQVYBFTPH8 (already in HTML, awaiting Cloudflare deployment)",
+    "gsc": "\u23f3 Pending \u2014 DNS verification needed (step 3.3-3.5)",
     "affiliates": "\u23f3 Pending \u2014 signup guide ready (AFFILIATE-SIGNUP.md)"
   }
 }
