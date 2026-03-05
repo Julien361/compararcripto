@@ -1,0 +1,80 @@
+{
+  "deployment": {
+    "date": "2026-03-05T20:24:42.147236",
+    "site": "compararcripto.com",
+    "status": "90% automated",
+    "completed": [
+      "✅ 10 PT-BR articles (11,250 words)",
+      "✅ GA4 code injection (G-LQVYBFTPH8)",
+      "✅ Blog page + navigation",
+      "✅ SEO setup (robots.txt + sitemaps)",
+      "✅ Affiliate link placeholders",
+      "✅ GA4 event tracking",
+      "✅ Advanced sitemap for articles",
+      "✅ GitHub repo live + auto-deploy ready"
+    ],
+    "pending_manual": [
+      "⏳ Cloudflare Pages connection (5 min)",
+      "⏳ Google Search Console setup (10 min)",
+      "⏳ Affiliate code replacement (30 min)"
+    ],
+    "manual_steps": {
+      "cloudflare_pages": {
+        "time": "5 minutes",
+        "steps": [
+          "1. Go to https://dash.cloudflare.com",
+          "2. Pages → Create a project → Connect to Git",
+          "3. Select Julien361/compararcripto",
+          "4. Framework: None, Build: empty",
+          "5. Save and Deploy",
+          "6. Settings → Domains → Add compararcripto.com",
+          "Result: Site LIVE at compararcripto.com"
+        ]
+      },
+      "gsc": {
+        "time": "10 minutes",
+        "steps": [
+          "1. Go to https://search.google.com/search-console",
+          "2. Add property → Domain: compararcripto.com",
+          "3. Get TXT verification code from Google",
+          "4. Go to Cloudflare DNS → Add TXT record",
+          "5. Wait 5-10 min for DNS propagation",
+          "6. Verify in GSC",
+          "7. Submit sitemap: /sitemap.xml"
+        ]
+      },
+      "affiliates": {
+        "time": "30 minutes (can be done async)",
+        "steps": [
+          "MEXC:    https://www.mexc.com/partner        → Get code",
+          "KuCoin:  https://www.kucoin.com/referral     → Get link",
+          "Binance: https://www.binance.com/referral    → Get link",
+          "Coinbase: https://www.coinbase.com/affiliates → Get link",
+          "",
+          "For each:",
+          "  → Get referral code/link",
+          "  → Replace 'placeholder_EXCHANGE' in index.html",
+          "  → git add index.html && git commit && git push",
+          "  → Cloudflare auto-redeploys"
+        ]
+      }
+    },
+    "timeline": {
+      "phase_1_2": "✅ DONE (content + infra)",
+      "phase_3_auto": "✅ DONE (GA4 + analytics setup)",
+      "phase_3_manual": "⏳ Cloudflare Pages + GSC (you: 15 min)",
+      "phase_4_manual": "⏳ Affiliates (you: 30 min)",
+      "google_indexation": "📅 7-10 days automatic",
+      "first_revenue": "📅 April 1 (27 days)"
+    },
+    "revenue": {
+      "monthly_target": "€5,600",
+      "breakdown": {
+        "MEXC": "€2,100 (70% lifetime)",
+        "KuCoin": "€1,440 (60% lifetime)",
+        "Binance": "€1,800 (50% lifetime)",
+        "Coinbase": "€270 (30% recurring)"
+      }
+    }
+  }
+}
