@@ -194,5 +194,24 @@
         <!-- AdSense -->
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </footer>
+
+    <!-- GA4 Affiliate Tracking -->
+    <script>
+    document.querySelectorAll('a[data-affiliate]').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            gtag('event', 'affiliate_click', {
+                'exchange': this.dataset.affiliate,
+                'url': this.href,
+                'timestamp': new Date().toISOString()
+            });
+            // Délai de 100ms avant redirect pour laisser la requête partir
+            setTimeout(() => {
+                window.location.href = this.href;
+            }, 100);
+            e.preventDefault();
+        });
+    });
+    </script>
+    
 </body>
 </html>

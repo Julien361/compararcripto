@@ -1,10 +1,33 @@
+# Compararcripto.com robots.txt
+
 User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /.git
 Disallow: /node_modules
+Disallow: /temp
+Disallow: /*.json$
+Allow: /sitemap.xml
+Allow: /sitemap-articles.xml
+
+# Règles spécifiques pour les crawlers lents
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+User-agent: DotBot
+Disallow: /
+
+# Accès normal pour les bons crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
 
 Sitemap: https://compararcripto.com/sitemap.xml
-
-# Crawl delay (be nice to servers)
-Crawl-delay: 1
+Sitemap: https://compararcripto.com/sitemap-articles.xml
