@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.git
+Disallow: /node_modules
+
+Sitemap: https://compararcripto.com/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
