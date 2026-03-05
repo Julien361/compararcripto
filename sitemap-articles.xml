@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pilier Principal: Comparação de Exchanges -->
   <url>
-    <loc>https://compararcripto.com/articles/wallet-segura</loc>
+    <loc>https://compararcripto.com/articles/comparacao-exchanges</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Satellites: Core Educational -->
   <url>
     <loc>https://compararcripto.com/articles/como-comprar-bitcoin</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://compararcripto.com/articles/como-usar-mexc</loc>
+    <loc>https://compararcripto.com/articles/seguranca-criptomoedas</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://compararcripto.com/articles/comeco-crypto-iniciantes</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Satellites: Comparisons & Analysis -->
+  <url>
+    <loc>https://compararcripto.com/articles/binance-vs-coinbase</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://compararcripto.com/articles/comeco-crypto-iniciantes</loc>
+    <loc>https://compararcripto.com/articles/wallet-segura</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -31,33 +48,23 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://compararcripto.com/articles/como-usar-kucoin</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://compararcripto.com/articles/binance-vs-coinbase</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://compararcripto.com/articles/comparacao-exchanges</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://compararcripto.com/articles/altcoins-diversificacao</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Satellites: How-To Tutorials -->
   <url>
-    <loc>https://compararcripto.com/articles/seguranca-criptomoedas</loc>
+    <loc>https://compararcripto.com/articles/como-usar-kucoin</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://compararcripto.com/articles/como-usar-mexc</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
   </url>
 </urlset>
