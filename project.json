@@ -6,17 +6,17 @@
   "usine_started_at": "2026-03-04T00:00:00Z",
   "entity": "METIS",
   "status": {
-    "phase_1": "in_progress",
+    "phase_1": "done",
     "phase_2": "in_progress",
     "phase_3": "pending",
     "phase_4": "pending"
   },
   "idea": {
     "description": "Comparador de criptomoedas e guias de exchange - foco mercado Brasil PT-BR",
-    "target_audience": "Usu\u00e1rios brasileiros buscando comparar exchanges de criptomoedas",
+    "target_audience": "Usuários brasileiros buscando comparar exchanges de criptomoedas",
     "business_model": "crypto_affiliate_adsense",
-    "usp": "\u00danico site PT-BR com an\u00e1lise detalhada de 15+ exchanges + seguran\u00e7a + taxas",
-    "market_size": "10M+ usu\u00e1rios crypto n\u00e3o-atendidos em PT-BR",
+    "usp": "Único site PT-BR com análise detalhada de 15+ exchanges + segurança + taxas",
+    "market_size": "10M+ usuários crypto não-atendidos em PT-BR",
     "growth_rate": "+25%/ano mercado crypto Brasil"
   },
   "technical": {
@@ -79,7 +79,7 @@
   },
   "n8n_workflows": {},
   "credentials": {
-    "cloudflare_account": "\u2014",
+    "cloudflare_account": "—",
     "git_repo": "compararcripto",
     "affiliate_accounts": [
       "binance",
@@ -97,13 +97,13 @@
     },
     {
       "id": "affiliate_setup",
-      "description": "Configurar links de afilia\u00e7\u00e3o para 4 exchanges",
+      "description": "Configurar links de afiliação para 4 exchanges",
       "priority": "critical",
       "status": "pending"
     },
     {
       "id": "content_writing",
-      "description": "Escrever 10 artigos em PT-BR (nativo, n\u00e3o traduzido)",
+      "description": "Escrever 10 artigos em PT-BR (nativo, não traduzido)",
       "priority": "high",
       "status": "pending"
     }
@@ -284,5 +284,6 @@
       "step": "Health check passed",
       "description": "All systems nominal, no critical errors"
     }
-  }
+  },
+  "last_updated": "2026-03-05T01:15:00Z"
 }
