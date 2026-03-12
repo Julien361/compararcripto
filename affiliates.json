@@ -13,23 +13,23 @@
       "affiliate_link": "https://www.kucoin.com/ucenter/signup?rcode=TODO",
       "commission": "60% lifetime",
       "signup_bonus": "20 USDT welcome bonus",
-      "status": "pending_signup",
+      "status": "active",
       "notes": "Register at KuCoin Referral Program"
     },
     {
       "name": "MEXC",
-      "affiliate_link": "https://www.mexc.com/register?inviteCode=TODO",
+      "affiliate_link": "https://www.mexc.com/user/register?inviteCode=3tNA4",
       "commission": "70% lifetime",
       "signup_bonus": "50 USDT welcome bonus",
-      "status": "pending_signup",
-      "notes": "Highest commission — prioritize!"
+      "status": "active",
+      "notes": "Active since 2026-03-12. Commission 50% spot + 50% futures."
     },
     {
       "name": "Coinbase",
       "affiliate_link": "https://www.coinbase.com/join/TODO",
       "commission": "30% recurring",
       "signup_bonus": "$10 BTC for new users",
-      "status": "pending_signup",
+      "status": "active",
       "notes": "Recurring commissions (better long-term)"
     }
   ],
